@@ -11,7 +11,7 @@ maven'local_maven'
             post{
 success{
 echo"Achiving the Artifacts"
-achiveArtifacts artifacts: '*/target/.war
+achiveArtifacts artifacts: '*/target/.war'
                  }
 }
 }
